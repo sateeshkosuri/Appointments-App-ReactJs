@@ -1,0 +1,144 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  width: 90%;
+  min-height: 70vh;
+}
+.Appointments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 64px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  color: #171f46;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 22px;
+  }
+}
+.label {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.input {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 60px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  .add-button {
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+  }
+}
+.appointments-image {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .appointments-image {
+    display: none;
+  }
+}
+.line {
+  border-top: 2px solid #b5b7c4;
+  width: 100%;
+}
+.card-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 15px;
+  }
+}
+.flitter-active {
+  background-color: #9897f0;
+  color: #ffffff;
+  border: none;
+}
+.flitter-empty {
+  color: #9897f0;
+  background-color: #ffffff;
+  border: 1px solid #b5b7c4;
+}
+.star-button {
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 9px;
+  height: 30px;
+  width: 90px;
+}
+@media screen and (max-width: 768px) {
+  .star-button {
+    font-size: 11px;
+    height: 20px;
+    width: 70px;
+  }
+}
+.unordered-container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .unordered-container {
+    flex-direction: column;
+  }
+}
